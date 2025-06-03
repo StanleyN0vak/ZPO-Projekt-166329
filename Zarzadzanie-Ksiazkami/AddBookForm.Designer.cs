@@ -30,23 +30,23 @@ namespace Zarzadzanie_Ksiazkami
         private void InitializeComponent()
         {
             btnSaveBook = new Button();
-            comboBox1 = new ComboBox();
-            textBox1 = new TextBox();
+            cmbGenre = new ComboBox();
+            txtTitle = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            textBox2 = new TextBox();
+            txtAuthor = new TextBox();
             label3 = new Label();
             label4 = new Label();
-            textBox3 = new TextBox();
+            txtPublisher = new TextBox();
             label5 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox2 = new ComboBox();
+            dtpPublished = new DateTimePicker();
+            cmbType = new ComboBox();
             label6 = new Label();
             label7 = new Label();
-            textBox5 = new TextBox();
+            txtFileFormat = new TextBox();
             label8 = new Label();
-            numericUpDown1 = new NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            nudPageCount = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)nudPageCount).BeginInit();
             SuspendLayout();
             // 
             // btnSaveBook
@@ -57,22 +57,23 @@ namespace Zarzadzanie_Ksiazkami
             btnSaveBook.TabIndex = 0;
             btnSaveBook.Text = "Zapisz";
             btnSaveBook.UseVisualStyleBackColor = true;
+            btnSaveBook.Click += btnSaveBook_Click;
             // 
-            // comboBox1
+            // cmbGenre
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Kryminał", "Thriller", "Literatura obyczajowa", "Fantastyka", "Horror", "Sci-Fi", "Literatura faktu", "Biografia", "Poradnik", "Rozwój osobisty", "Kuchnia", "Literatura obca", "Literatura polska", "Historia", "Komiks", "Sport i wypoczynek", "Turystyka i podróże" });
-            comboBox1.Location = new Point(12, 138);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 1;
+            cmbGenre.FormattingEnabled = true;
+            cmbGenre.Items.AddRange(new object[] { "Kryminał", "Thriller", "Literatura obyczajowa", "Fantastyka", "Horror", "Sci-Fi", "Literatura faktu", "Biografia", "Poradnik", "Rozwój osobisty", "Kuchnia", "Literatura obca", "Literatura polska", "Historia", "Komiks", "Sport i wypoczynek", "Turystyka i podróże" });
+            cmbGenre.Location = new Point(12, 138);
+            cmbGenre.Name = "cmbGenre";
+            cmbGenre.Size = new Size(151, 28);
+            cmbGenre.TabIndex = 1;
             // 
-            // textBox1
+            // txtTitle
             // 
-            textBox1.Location = new Point(12, 32);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 2;
+            txtTitle.Location = new Point(12, 32);
+            txtTitle.Name = "txtTitle";
+            txtTitle.Size = new Size(125, 27);
+            txtTitle.TabIndex = 2;
             // 
             // label1
             // 
@@ -92,12 +93,12 @@ namespace Zarzadzanie_Ksiazkami
             label2.TabIndex = 4;
             label2.Text = "Autor";
             // 
-            // textBox2
+            // txtAuthor
             // 
-            textBox2.Location = new Point(12, 85);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 5;
+            txtAuthor.Location = new Point(12, 85);
+            txtAuthor.Name = "txtAuthor";
+            txtAuthor.Size = new Size(125, 27);
+            txtAuthor.TabIndex = 5;
             // 
             // label3
             // 
@@ -117,12 +118,12 @@ namespace Zarzadzanie_Ksiazkami
             label4.TabIndex = 7;
             label4.Text = "Wydawnictwo";
             // 
-            // textBox3
+            // txtPublisher
             // 
-            textBox3.Location = new Point(12, 192);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 8;
+            txtPublisher.Location = new Point(12, 192);
+            txtPublisher.Name = "txtPublisher";
+            txtPublisher.Size = new Size(125, 27);
+            txtPublisher.TabIndex = 8;
             // 
             // label5
             // 
@@ -133,21 +134,21 @@ namespace Zarzadzanie_Ksiazkami
             label5.TabIndex = 9;
             label5.Text = "Data Wydania";
             // 
-            // dateTimePicker1
+            // dtpPublished
             // 
-            dateTimePicker1.Location = new Point(12, 245);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(259, 27);
-            dateTimePicker1.TabIndex = 10;
+            dtpPublished.Location = new Point(12, 245);
+            dtpPublished.Name = "dtpPublished";
+            dtpPublished.Size = new Size(259, 27);
+            dtpPublished.TabIndex = 10;
             // 
-            // comboBox2
+            // cmbType
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Items.AddRange(new object[] { "Fizyczna", "E-Book" });
-            comboBox2.Location = new Point(12, 298);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(151, 28);
-            comboBox2.TabIndex = 11;
+            cmbType.FormattingEnabled = true;
+            cmbType.Items.AddRange(new object[] { "Fizyczna", "E-Book" });
+            cmbType.Location = new Point(12, 298);
+            cmbType.Name = "cmbType";
+            cmbType.Size = new Size(151, 28);
+            cmbType.TabIndex = 11;
             // 
             // label6
             // 
@@ -167,13 +168,13 @@ namespace Zarzadzanie_Ksiazkami
             label7.TabIndex = 13;
             label7.Text = "Ilość stron";
             // 
-            // textBox5
+            // txtFileFormat
             // 
-            textBox5.Enabled = false;
-            textBox5.Location = new Point(168, 352);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 15;
+            txtFileFormat.Enabled = false;
+            txtFileFormat.Location = new Point(168, 352);
+            txtFileFormat.Name = "txtFileFormat";
+            txtFileFormat.Size = new Size(125, 27);
+            txtFileFormat.TabIndex = 15;
             // 
             // label8
             // 
@@ -185,39 +186,40 @@ namespace Zarzadzanie_Ksiazkami
             label8.Text = "Format";
             label8.Click += label8_Click;
             // 
-            // numericUpDown1
+            // nudPageCount
             // 
-            numericUpDown1.Enabled = false;
-            numericUpDown1.Location = new Point(12, 353);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(150, 27);
-            numericUpDown1.TabIndex = 17;
+            nudPageCount.Enabled = false;
+            nudPageCount.Location = new Point(12, 353);
+            nudPageCount.Maximum = new decimal(new int[] { 51000, 0, 0, 0 });
+            nudPageCount.Name = "nudPageCount";
+            nudPageCount.Size = new Size(150, 27);
+            nudPageCount.TabIndex = 17;
             // 
             // AddBookForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(numericUpDown1);
+            Controls.Add(nudPageCount);
             Controls.Add(label8);
-            Controls.Add(textBox5);
+            Controls.Add(txtFileFormat);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(comboBox2);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(cmbType);
+            Controls.Add(dtpPublished);
             Controls.Add(label5);
-            Controls.Add(textBox3);
+            Controls.Add(txtPublisher);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(txtAuthor);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox1);
-            Controls.Add(comboBox1);
+            Controls.Add(txtTitle);
+            Controls.Add(cmbGenre);
             Controls.Add(btnSaveBook);
             Name = "AddBookForm";
             Text = "Dodaj Książkę";
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)nudPageCount).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -230,21 +232,21 @@ namespace Zarzadzanie_Ksiazkami
         #endregion
 
         private Button btnSaveBook;
-        private ComboBox comboBox1;
-        private TextBox textBox1;
+        private ComboBox cmbGenre;
+        private TextBox txtTitle;
         private Label label1;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox txtAuthor;
         private Label label3;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox txtPublisher;
         private Label label5;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox2;
+        private DateTimePicker dtpPublished;
+        private ComboBox cmbType;
         private Label label6;
         private Label label7;
-        private TextBox textBox5;
+        private TextBox txtFileFormat;
         private Label label8;
-        private NumericUpDown numericUpDown1;
+        private NumericUpDown nudPageCount;
     }
 }
