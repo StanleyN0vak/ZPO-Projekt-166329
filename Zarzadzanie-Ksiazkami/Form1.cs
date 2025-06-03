@@ -14,24 +14,14 @@ namespace Zarzadzanie_Ksiazkami
         {
             var books = _bookRepository.GetAll();
 
-            var displayList = books.Select(b => new
-            {
-                b.Id,
-                b.Title,
-                b.Author,
-                Format = b.GetFormat(),
-                Details = b is EBook eb ? $"Format: {eb.FileFormat}" :
-                          b is PrintedBook pb ? $"Strony: {pb.PageCount}" : ""
-            }).ToList();
-
-            dataGridViewBooks.DataSource = displayList;
+            dataGridViewBooks.DataSource = books;
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             var addBookForm = new AddBookForm(_bookRepository);
             addBookForm.ShowDialog();
-            LoadBooks();
+            LoadBooksToGrid();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,6 +32,29 @@ namespace Zarzadzanie_Ksiazkami
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             _bookRepository.SaveAll();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewBooks.SelectedRows.Count == 0) 
+            {
+                MessageBox.Show("Zaznacz ksi¹¿kê do edycji.");
+                return;
+            }
+
+            var selectedBook = (Book)dataGridViewBooks.SelectedRows[0].DataBoundItem;
+            var editForm = new EditBookForm(selectedBook);
+            if (editForm.ShowDialog() == DialogResult.OK)
+            {
+                LoadBooksToGrid();
+            }
+        }
+
+        private void LoadBooksToGrid()
+        {
+            var repo = new BookRepository();
+            dataGridViewBooks.DataSource = null;
+            dataGridViewBooks.DataSource = repo.GetAll();
         }
     }
 }

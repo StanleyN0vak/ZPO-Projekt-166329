@@ -1,7 +1,7 @@
 [
   {
     "$type": "PrintedBook",
-    "PageCount": 100,
+    "PageCount": 438,
     "Id": 2,
     "Title": "Dar Anomalii",
     "Author": "Pawe\u0142 Zbroszczyk",
@@ -18,5 +18,25 @@
     "Genre": "Fantastyka",
     "Publisher": "SuperNOWA",
     "PublishedDate": "2024-11-19T13:30:29.323"
+  },
+  {
+    "$type": "PrintedBook",
+    "PageCount": 777,
+    "Id": 4,
+    "Title": "Diuna",
+    "Author": "Frank Herbert",
+    "Genre": "Sci-Fi",
+    "Publisher": "Rebis",
+    "PublishedDate": "2024-01-01T15:43:53.578"
+  },
+  {
+    "$type": "PrintedBook",
+    "PageCount": 578,
+    "Id": 5,
+    "Title": "Metro 2033",
+    "Author": "Dmitry Glukhovsky",
+    "Genre": "Sci-Fi",
+    "Publisher": "Insignis",
+    "PublishedDate": "2018-10-17T15:46:26.662"
   }
 ]

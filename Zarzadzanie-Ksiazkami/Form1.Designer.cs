@@ -58,6 +58,7 @@
             btnEdit.TabIndex = 1;
             btnEdit.Text = "Edytuj Książkę";
             btnEdit.UseVisualStyleBackColor = true;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDelete
             // 

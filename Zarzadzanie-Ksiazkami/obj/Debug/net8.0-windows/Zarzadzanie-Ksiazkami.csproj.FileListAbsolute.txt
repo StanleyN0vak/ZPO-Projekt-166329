@@ -16,3 +16,4 @@ C:\Users\Mateusz\WebstormProjects\ts\ZPO-Projekt-166329\Zarzadzanie-Ksiazkami\ob
 C:\Users\Mateusz\WebstormProjects\ts\ZPO-Projekt-166329\Zarzadzanie-Ksiazkami\obj\Debug\net8.0-windows\Zarzadzanie-Ksiazkami.pdb
 C:\Users\Mateusz\WebstormProjects\ts\ZPO-Projekt-166329\Zarzadzanie-Ksiazkami\obj\Debug\net8.0-windows\Zarzadzanie-Ksiazkami.genruntimeconfig.cache
 C:\Users\Mateusz\WebstormProjects\ts\ZPO-Projekt-166329\Zarzadzanie-Ksiazkami\obj\Debug\net8.0-windows\ref\Zarzadzanie-Ksiazkami.dll
+C:\Users\Mateusz\WebstormProjects\ts\ZPO-Projekt-166329\Zarzadzanie-Ksiazkami\obj\Debug\net8.0-windows\Zarzadzanie_Ksiazkami.EditBookForm.resources
