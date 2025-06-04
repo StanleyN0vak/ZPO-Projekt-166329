@@ -70,6 +70,7 @@
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Usuń Książkę";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnFilter
             // 

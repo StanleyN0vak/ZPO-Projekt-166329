@@ -55,7 +55,7 @@ namespace Zarzadzanie_Ksiazkami
                     Author = txtAuthor.Text,
                     Genre = cmbGenre.Text,
                     Publisher = txtPublisher.Text,
-                    PublishedDate = dtpPublished.Value,
+                    PublishedDate = dtpPublished.Value.Date,
                     PageCount = (int)nudPageCount.Value
                 };
             }
@@ -67,7 +67,7 @@ namespace Zarzadzanie_Ksiazkami
                     Author = txtAuthor.Text,
                     Genre = cmbGenre.Text,
                     Publisher = txtPublisher.Text,
-                    PublishedDate = dtpPublished.Value,
+                    PublishedDate = dtpPublished.Value.Date,
                     FileFormat = txtFileFormat.Text
                 };
             }

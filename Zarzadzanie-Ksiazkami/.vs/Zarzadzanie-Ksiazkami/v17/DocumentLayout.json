@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|c:\\users\\mateusz\\webstormprojects\\ts\\zpo-projekt-166329\\zarzadzanie-ksiazkami\\editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|c:\\users\\mateusz\\webstormprojects\\ts\\zpo-projekt-166329\\zarzadzanie-ksiazkami\\editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|c:\\users\\mateusz\\webstormprojects\\ts\\zpo-projekt-166329\\zarzadzanie-ksiazkami\\editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|c:\\users\\mateusz\\webstormprojects\\ts\\zpo-projekt-166329\\zarzadzanie-ksiazkami\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:editbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|solutionrelative:addbookform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C1AF690-5713-4E1A-B8FD-AB96B0F58FE6}|Zarzadzanie-Ksiazkami.csproj|C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,36 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EditBookForm.cs",
               "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs",
               "RelativeDocumentMoniker": "EditBookForm.cs",
               "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs",
               "RelativeToolTip": "EditBookForm.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwDQAAAAtAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwD4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T12:57:37.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditBookForm.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs",
-              "RelativeDocumentMoniker": "EditBookForm.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs [Projekt]",
-              "RelativeToolTip": "EditBookForm.cs [Projekt]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T12:42:04.238Z",
-              "EditorCaption": " [Projekt]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AddBookForm.cs [Projekt]",
               "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\AddBookForm.cs",
               "RelativeDocumentMoniker": "AddBookForm.cs",
@@ -89,27 +77,40 @@
               "RelativeDocumentMoniker": "AddBookForm.cs",
               "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\AddBookForm.cs",
               "RelativeToolTip": "AddBookForm.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwD0AAAAQAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T18:31:57.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAcwBcAAAAbAAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwIcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T13:14:03.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswGAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T19:01:16.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Projekt]",
               "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -121,16 +122,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Book.cs",
-              "RelativeDocumentMoniker": "Book.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\Book.cs",
-              "RelativeToolTip": "Book.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAADwv2cAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "EditBookForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs",
+              "RelativeDocumentMoniker": "EditBookForm.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\WebstormProjects\\ts\\ZPO-Projekt-166329\\Zarzadzanie-Ksiazkami\\EditBookForm.cs [Projekt]",
+              "RelativeToolTip": "EditBookForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:01:16.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T12:42:04.238Z"
             },
             {
               "$type": "Document",

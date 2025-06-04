@@ -46,7 +46,7 @@ namespace Zarzadzanie_Ksiazkami
             _originalBook.Author = txtAuthor.Text;
             _originalBook.Genre = cmbGenre.Text;
             _originalBook.Publisher = txtPublisher.Text;
-            _originalBook.PublishedDate = dtpPublished.Value;
+            _originalBook.PublishedDate = dtpPublished.Value.Date;
             
             if (_originalBook is PrintedBook printedBook)
             {
@@ -60,6 +60,7 @@ namespace Zarzadzanie_Ksiazkami
             BookRepository repo = new();
             repo.Update(_originalBook);
 
+            MessageBox.Show("Zaktualizowano książkę.");
             DialogResult = DialogResult.OK;
             Close();
         }

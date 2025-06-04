@@ -92,6 +92,11 @@ public class BookRepository : IRepository<Book>
         Save(_books);
     }
 
+    public void SetBooks(List<Book> books)
+    {
+        _books = books;
+    }
+
     public List<Book> GetAll()
     {
         return _books;
