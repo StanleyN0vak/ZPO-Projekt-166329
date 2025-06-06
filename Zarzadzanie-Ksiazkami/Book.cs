@@ -15,6 +15,14 @@ public abstract class Book
     public DateTime PublishedDate { get; set; }
 
 	public abstract string GetFormat();
+
+    [JsonIgnore]
+    public string BookType => GetFormat();
+    [JsonIgnore]
+    public string Details =>
+        this is PrintedBook printed ? $"{printed.PageCount} stron" :
+        this is EBook eb ? $"Format: {eb.FileFormat}" :
+        "";
 }
 
 public class PrintedBook : Book
@@ -22,7 +30,7 @@ public class PrintedBook : Book
 	public int PageCount { get; set; }
     public override string GetFormat()
     {
-		return "Printed";
+		return "Fizyczna";
     }
 }
 
@@ -104,7 +112,10 @@ public class BookRepository : IRepository<Book>
 
     public Book GetById(int id)
     {
-        return _books.FirstOrDefault(b => b.Id == id);
+        var book = _books.FirstOrDefault(b => b.Id == id);
+        if (book == null)
+            throw new BookNotFoundException(id);
+        return book;
     }
 
     public void Remove(int id)
@@ -136,4 +147,9 @@ public class BookRepository : IRepository<Book>
         WriteIndented = true,
         Converters = {new JsonStringEnumConverter()}
     };
+}
+
+public class BookNotFoundException : Exception
+{
+    public BookNotFoundException(int id) : base($"Książka o ID {id} nie została znaleziona.") { }
 }

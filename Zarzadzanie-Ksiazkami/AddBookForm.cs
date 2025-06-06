@@ -45,7 +45,8 @@ namespace Zarzadzanie_Ksiazkami
 
             if (cmbType.SelectedItem == null) 
             {
-                throw new ArgumentException("Proszę podać format książki");
+                MessageBox.Show("Proszę podać format książki", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
             else if (cmbType.SelectedItem.ToString() == "Fizyczna")
             {
@@ -71,9 +72,27 @@ namespace Zarzadzanie_Ksiazkami
                     FileFormat = txtFileFormat.Text
                 };
             }
-            
-            _bookRepository.Add(newbook);
-            MessageBox.Show("Książka dodana!");
+
+            if (string.IsNullOrWhiteSpace(txtTitle.Text) || string.IsNullOrWhiteSpace(txtAuthor.Text))
+            {
+                MessageBox.Show("Tytuł i autor są wymagane.", "Uwaga", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else
+            {
+                _bookRepository.Add(newbook);
+                MessageBox.Show("Książka dodana!", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtTitle.Text = string.Empty;
+                txtAuthor.Text = string.Empty;
+                cmbGenre.Text = string.Empty;
+                txtPublisher.Text = string.Empty;
+                dtpPublished.Value = DateTime.Now;
+                nudPageCount.Value = 0;
+                txtFileFormat.Text = string.Empty;
+
+            }
+
+
         }
     }
 }

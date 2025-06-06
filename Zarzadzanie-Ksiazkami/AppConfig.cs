@@ -11,8 +11,11 @@ public class AppConfig
     public string FilePath { get; set; } = "book.json";
 	public string Language { get; set; } = "pl";
     public int LastUsedId { get; set; } = 0;
+    public string DefaultSortField { get; set; } = "Title";
+    public string DefaultSortOrder { get; set; } = "Ascending";
+    public DateTime LastOpened { get; set; } = DateTime.Now;
 
-	public AppConfig() { }
+    public AppConfig() { }
 
 	public static AppConfig Instance
 	{

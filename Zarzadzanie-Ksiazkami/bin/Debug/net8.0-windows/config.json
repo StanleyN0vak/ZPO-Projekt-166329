@@ -1,5 +1,8 @@
 {
   "FilePath": "book.json",
   "Language": "pl",
-  "LastUsedId": 6
+  "LastUsedId": 12,
+  "DefaultSortField": "Title",
+  "DefaultSortOrder": "Ascending",
+  "LastOpened": "2025-06-06T10:04:03.2737861+02:00"
 }

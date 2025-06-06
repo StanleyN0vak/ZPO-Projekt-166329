@@ -1,9 +1,19 @@
 [
   {
     "$type": "PrintedBook",
+    "PageCount": 292,
+    "Id": 8,
+    "Title": "Wied\u017Amin Rozdro\u017Ce Kruk\u00F3w",
+    "Author": "Andrzej Sapkowski",
+    "Genre": "Fantastyka",
+    "Publisher": "superNowa",
+    "PublishedDate": "2024-11-19T00:00:00"
+  },
+  {
+    "$type": "PrintedBook",
     "PageCount": 438,
-    "Id": 2,
-    "Title": "Dar Anomalii",
+    "Id": 9,
+    "Title": "Dar Anomalii Ksi\u0119ga II",
     "Author": "Pawe\u0142 Zbroszczyk",
     "Genre": "Fantastyka",
     "Publisher": "Elfickie wydawnictwo",
@@ -11,32 +21,22 @@
   },
   {
     "$type": "PrintedBook",
-    "PageCount": 238,
-    "Id": 3,
-    "Title": "Wied\u017Amin Rozdro\u017Ce Kruk\u00F3w",
-    "Author": "Andrzej Sapkowski",
-    "Genre": "Fantastyka",
-    "Publisher": "SuperNOWA",
-    "PublishedDate": "2024-11-19T00:00:00"
-  },
-  {
-    "$type": "PrintedBook",
-    "PageCount": 777,
-    "Id": 4,
-    "Title": "Diuna",
-    "Author": "Frank Herbert",
-    "Genre": "Sci-Fi",
-    "Publisher": "Rebis",
-    "PublishedDate": "2024-01-01T00:00:00"
-  },
-  {
-    "$type": "PrintedBook",
     "PageCount": 578,
-    "Id": 5,
+    "Id": 10,
     "Title": "Metro 2033",
     "Author": "Dmitry Glukhovsky",
     "Genre": "Sci-Fi",
     "Publisher": "Insignis",
     "PublishedDate": "2018-10-17T00:00:00"
+  },
+  {
+    "$type": "EBook",
+    "FileFormat": "EPUB \u002B MOBI",
+    "Id": 11,
+    "Title": "Krwawa orchidea",
+    "Author": "Kylie Lee Baker ",
+    "Genre": "Fantastyka",
+    "Publisher": "Wydawnictwo NieZwyk\u0142e ",
+    "PublishedDate": "2025-06-03T00:00:00"
   }
 ]
